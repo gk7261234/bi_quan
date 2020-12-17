@@ -1,0 +1,381 @@
+.full-page {
+  .item1{
+    width: 100vw;
+    height: 220vh;
+    background: linear-gradient(0deg, #010004, #090020, #090020);
+    .index-header{
+      display: flex;
+      justify-content: space-between;
+      padding: 2.407407vh 3.59375vw;
+      .logo {
+        height: 5.462963vh;
+        width: 17.552083vw;
+        background: url("~@/images/logo.png") no-repeat 100% 100%;
+      }
+      .nav {
+        display: flex;
+        width: 32.5vw;
+        text-align: center;
+        height: 2.222222vh;
+        line-height: 5.462963vh;
+        font-size: 1.25vw;
+        font-family: Arial;
+        font-weight: 400;
+        color: #FFFFFF;
+        div{
+          flex: 1;
+        }
+      }
+      .btn-group {
+        display: flex;
+        line-height: 6.481481vh;
+        .btn {
+          margin-right: 3.645833vw;
+        }
+        .sele {
+          width: 7.96875vw;
+        }
+      }
+    }
+    .index-content {
+      position: relative;
+      margin-top: 8.796296vh;
+      margin-left: 13.697917vw;
+      margin-right: 16.614583vw;
+      text-align: center;
+      .title {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 52.96875vw;
+        height: 23.425926vh;
+        font-size: 3.75vw;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #FFFFFF;
+        line-height: 4.583333vw;
+      }
+      .img1 {
+        position: absolute;
+        width: 9.322917vw;
+        height: 17.777778vh;
+        top: 34.722222vh;
+        left: 41.458333vw;
+        background: url("~@/images/shape1.png") no-repeat 100% 100%;
+      }
+      .img2 {
+        position: absolute;
+        width: 9.322917vw;
+        height: 17.777778vh;
+        top: 42.407407vh;
+        left: -4.427083vw;
+        background: url("~@/images/shape2.png") no-repeat 100% 100%;
+      }
+      .img3 {
+        position: absolute;
+        width: 14.375vw;
+        height: 16.666667vh;
+        top: 48.518519vh;
+        left: 58.177083vw;
+        background: url("~@/images/shape3.png") no-repeat 100% 100%;
+      }
+      .img4 {
+        position: absolute;
+        width: 9.0625vw;
+        height: 26.666667vh;
+        top: 55.277778vh;
+        left: 21.614583vw;
+        background: url("~@/images/shape4.png") no-repeat 100% 100%;
+      }
+      .img5 {
+        position: absolute;
+        width: 11.979167vw;
+        height: 18.425926vh;
+        top: 78.981481vh;
+        left: 38.489583vw;
+        background: url("~@/images/shape5.png") no-repeat 100% 100%;
+      }
+    }
+    .support-currency {
+      position: relative;
+      top: 87.888889vh;
+      text-align: center;
+      .title {
+        position: relative;
+        width: 38.072917vw;
+        height: 7.222222vh;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 3.958333vw;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #FFFFFF;
+      } 
+      .icon-group {
+        margin-left: 10.520833vw;
+        margin-right: 9.270833vw;
+        margin-top: 12.962963vh;
+        display: flex;
+        justify-content: space-between;
+        .icon-item {
+          width: 7.291667vw;
+          height: auto;
+          .icon1 {
+            width: 7.291667vw;
+            height: 12.962963vh;
+            background: url("~@/images/icon1.png") no-repeat 100% 100%;
+          }
+          .icon2 {
+            width: 7.291667vw;
+            height: 12.962963vh;
+            background: url("~@/images/icon2.png") no-repeat 100% 100%;
+          }
+          .icon3 {
+            width: 7.291667vw;
+            height: 12.962963vh;
+            background: url("~@/images/icon3.png") no-repeat 100% 100%;
+          }
+          .icon4 {
+            width: 7.291667vw;
+            height: 12.962963vh;
+            background: url("~@/images/icon4.png") no-repeat 100% 100%;
+          }
+          .icon5 {
+            width: 7.291667vw;
+            height: 12.962963vh;
+            background: url("~@/images/icon5.png") no-repeat 100% 100%;
+          }
+          .icon6 {
+            width: 7.291667vw;
+            height: 12.962963vh;
+            background: url("~@/images/icon6.png") no-repeat 100% 100%;
+          }
+          .icon7 {
+            width: 7.291667vw;
+            height: 12.962963vh;
+            background: url("~@/images/icon7.png") no-repeat 100% 100%;
+          }
+          .icon8 {
+            width: 7.291667vw;
+            height: 12.962963vh;
+            background: url("~@/images/icon8.png") no-repeat 100% 100%;
+          }
+          .text {
+            width: 6.822917vw;
+            height: 3.240741vh;
+            text-align: center;
+            font-size: 2.395833vw;
+            font-family: Microsoft YaHei;
+            font-weight: 400;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+  .item2 {
+    background: #9873FF;
+    // opacity: 0.08;
+    .other{
+      display: flex;
+      padding: 11.666667vh 0;
+      .icon-other {
+        margin-left: 10.520833vw;
+        margin-right: 9.270833vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .icon-item {
+          height: 8.333333vh;
+          width: auto;
+          line-height: 8.333333vh;
+          margin: 1.851852vh 1.041667vw;
+          display: flex;
+          .icon9 {
+            height: 8.333333vh;
+            width: 4.6875vw;
+            background: url("~@/images/icon9.png") no-repeat 100% 100%;
+          }
+          .icon10 {
+            height: 8.333333vh;
+            width: 4.6875vw;
+            background: url("~@/images/icon10.png") no-repeat 100% 100%;
+          }
+          .icon11 {
+            height: 8.333333vh;
+            width: 4.6875vw;
+            background: url("~@/images/icon11.png") no-repeat 100% 100%;
+          }
+          .icon12 {
+            height: 8.333333vh;
+            width: 4.6875vw;
+            background: url("~@/images/icon12.png") no-repeat 100% 100%;
+          }
+          .icon13 {
+            height: 8.333333vh;
+            width: 4.6875vw;
+            background: url("~@/images/icon13.png") no-repeat 100% 100%;
+          }
+          .icon14 {
+            height: 8.333333vh;
+            width: 4.6875vw;
+            background: url("~@/images/icon14.png") no-repeat 100% 100%;
+          }
+          .icon15 {
+            height: 8.333333vh;
+            width: 4.6875vw;
+            background: url("~@/images/icon15.png") no-repeat 100% 100%;
+          }
+          .icon16 {
+            height: 8.333333vh;
+            width: 4.6875vw;
+            background: url("~@/images/icon16.png") no-repeat 100% 100%;
+          }
+          .icon17 {
+            height: 8.333333vh;
+            width: 4.6875vw;
+            background: url("~@/images/icon17.png") no-repeat 100% 100%;
+          }
+          .icon18 {
+            height: 8.333333vh;
+            width: 4.6875vw;
+            background: url("~@/images/icon18.png") no-repeat 100% 100%;
+          }
+          .text {
+            text-align: left;
+            line-height: 4.333333vh;
+            margin-left: 2.041667vw;
+            .middle {
+              font-size: 2.395833vw;
+              font-family: Microsoft YaHei;
+              font-weight: 400;
+              color: #FFFFFF;
+            }
+            .small {
+              font-size: 1vw;
+              font-family: Microsoft YaHei;
+              font-weight: 400;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+    }
+  }
+  .item3 {
+    background: linear-gradient(0deg, #010004, #090020, #090020);
+    .title {
+      position: relative;
+      width: 38.072917vw;
+      height: 7.222222vh;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 3.958333vw;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      color: #FFFFFF;
+    }
+  }
+  .item4 {
+    background: linear-gradient(0deg, #010004, #090020, #090020);
+    .partner {
+      text-align: center;
+      .title {
+        position: relative;
+        width: 38.072917vw;
+        height: 7.222222vh;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 3.958333vw;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #FFFFFF;
+      }
+      .logo-group {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4.444444vh;
+        margin-bottom: 4.444444vh;
+        margin-left: 10.520833vw;
+        margin-right: 9.270833vw;
+        .logo-item {
+          width: 26.302083vw;
+          height: auto;
+          .logo1 {
+            width: 25vw;
+            height: 15.277778vh;
+            background: rgba(152,115,255, 0.11) url("~@/images/logo1.png") no-repeat top center;
+          }
+          .logo2 {
+            width: 25vw;
+            height: 15.277778vh;
+            background: rgba(152,115,255, 0.11) url("~@/images/logo2.png") no-repeat top center;
+          }
+          .logo3 {
+            width: 25vw;
+            height: 15.277778vh;
+            background: rgba(152,115,255, 0.11) url("~@/images/logo3.png") no-repeat top center;
+          }
+          .logo4 {
+            width: 25vw;
+            height: 15.277778vh;
+            background: rgba(152,115,255, 0.11) url("~@/images/logo4.png") no-repeat top center;
+          }
+          .logo5 {
+            width: 25vw;
+            height: 15.277778vh;
+            background: rgba(152,115,255, 0.11) url("~@/images/logo5.png") no-repeat top center;
+          }
+          .logo6 {
+            width: 25vw;
+            height: 15.277778vh;
+            background: rgba(152,115,255, 0.11) url("~@/images/logo6.png") no-repeat top center;
+          }
+        }
+      }
+    }
+  }
+  .index-footer {
+    padding: 14.351852vh 4.322917vw;
+    background: linear-gradient(0deg, #010004, #090020, #090020);
+    .base-info {
+      display: flex;
+      justify-content: space-between;
+      .logo{
+        width: 13.385417vw;
+        height: 4.166667vh;
+        background: rgba(152,115,255, 0.11) url("~@/images/logo0.png") no-repeat 100% 100%;
+      }
+      .title {
+        font-size: 1.25vw;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #FFFFFF;
+        line-height: 2.407407vh;
+      }
+      .text{
+        font-size: 1.25vw;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #FFFFFF;
+        line-height: 2.407407vh;
+      }
+      .btn-group {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    .trademark {
+      height: 2.407407vh;
+      font-size: 1.25vw;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      color: #FFFFFF;
+      line-height: 2.222222vh;
+    }
+  }
+}

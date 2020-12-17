@@ -6,6 +6,7 @@ import App from "./App";
 import actions from "./shared/actions";
 import SharedModule from "./shared/index.js";
 // import reportWebVitals from './reportWebVitals';
+import "@/lang/idnex";
 
 if (!window.__POWERED_BY_QIANKUN__) {
   render();

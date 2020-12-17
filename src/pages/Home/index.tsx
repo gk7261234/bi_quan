@@ -55,15 +55,15 @@ export default () => {
             </div>
             <div className="icon-item">
               <div className="icon2" />
-              <div className="text">USDT</div>
+              <div className="text">USDC</div>
             </div>
             <div className="icon-item">
               <div className="icon3" />
-              <div className="text">USDT</div>
+              <div className="text">DAI</div>
             </div>
             <div className="icon-item">
               <div className="icon4" />
-              <div className="text">USDT</div>
+              <div className="text">TUSD</div>
             </div>
           </div>
           <div className="icon-group">
@@ -73,15 +73,15 @@ export default () => {
             </div>
             <div className="icon-item">
               <div className="icon6" />
-              <div className="text">USDT</div>
+              <div className="text">USDC</div>
             </div>
             <div className="icon-item">
               <div className="icon7" />
-              <div className="text">USDT</div>
+              <div className="text">HUSD</div>
             </div>
             <div className="icon-item">
               <div className="icon8" />
-              <div className="text">USDT</div>
+              <div className="text">PAX</div>
             </div>
           </div>
         </div>

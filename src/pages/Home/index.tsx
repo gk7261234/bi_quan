@@ -184,7 +184,7 @@ export default () => {
             <div className="code-img" />
           </div>
           <div>
-            <div className="right-bar"></div>
+            <div className="right-bar" />
           </div>
         </div>
       </div>
@@ -221,7 +221,7 @@ export default () => {
             <div className="logo" />
             <div className="text">subscribe to our monthly roundup</div>
             <div className="btn-group">
-              <Input />
+              <Input placeholder="Email address" style={{ background: "#29292B", marginRight: "10px" }} />
               <Button type="primary">Submit</Button>
             </div>
           </div>

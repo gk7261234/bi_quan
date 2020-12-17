@@ -192,6 +192,7 @@
   .item2 {
     background: #9873FF;
     // opacity: 0.08;
+    
     .other{
       display: flex;
       padding: 11.666667vh 0;
@@ -358,6 +359,7 @@
   }
   .item4 {
     background: linear-gradient(0deg, #010004, #090020, #090020);
+    padding: 11.666667vh 0;
     .partner {
       text-align: center;
       .title {
@@ -367,6 +369,7 @@
         top: 50%;
         left: 50%;
         transform: translateX(-50%);
+        margin-bottom: 9.259259vh;
         font-size: 3.958333vw;
         font-family: Microsoft YaHei;
         font-weight: 400;
@@ -376,7 +379,7 @@
         display: flex;
         justify-content: space-between;
         padding-top: 4.444444vh;
-        padding-bottom: 4.444444vh;
+        // padding-bottom: 4.444444vh;
         padding-left: 10.520833vw;
         padding-right: 9.270833vw;
         .logo-item {
@@ -433,24 +436,26 @@
         height: 4.166667vh;
         background: rgba(152,115,255, 0.11) url("~@/images/logo0.png") no-repeat 100% 100%;
         background-size: 13.385417vw 4.166667vh;
+        margin-bottom: 1.925926vh;
       }
       .title {
         font-size: 1.25vw;
         font-family: Microsoft YaHei;
         font-weight: 400;
         color: #FFFFFF;
-        line-height: 2.407407vh;
+        line-height: 3.407407vh;
       }
       .text{
         font-size: 1.25vw;
         font-family: Microsoft YaHei;
         font-weight: 400;
         color: #FFFFFF;
-        line-height: 2.407407vh;
+        line-height: 3.407407vh;
       }
       .btn-group {
         display: flex;
         justify-content: space-between;
+        margin-top: 1.925926vh;
       }
     }
     .trademark {

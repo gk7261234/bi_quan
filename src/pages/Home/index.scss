@@ -289,6 +289,7 @@
     }
   }
   .item3 {
+    padding: 11.666667vh 0;
     background: linear-gradient(0deg, #010004, #090020, #090020);
     .title {
       position: relative;
@@ -301,6 +302,58 @@
       font-family: Microsoft YaHei;
       font-weight: 400;
       color: #FFFFFF;
+    }
+    .scroll-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: auto;
+      height: 37.037037vh;
+      padding-left: 10.520833vw;
+      padding-right: 9.270833vw;
+      margin-top: 10.462963vh;
+      .left-bar {
+        flex-shrink: 1;
+        width: 3.645833vw;
+        height: 6.481481vh;
+        margin-right: 2.041667vw;
+        background: url("~@/images/left-bar.png") no-repeat center center;
+        background-size: 3.645833vw 6.481481vh;
+      }
+      .right-bar {
+        flex-shrink: 1;
+        width: 3.645833vw;
+        height: 6.481481vh;
+        margin-left: 2.041667vw;
+        background: url("~@/images/left-bar.png") no-repeat center center;
+        background-size: 3.645833vw 6.481481vh;
+      }
+      .desc {
+        .title {
+          font-size: 2.34375vw;
+          font-family: PingFang SC;
+          font-weight: 800;
+          color: #FFFFFF;
+          line-height: 5.555556vh;          
+        }
+        .sub-title {
+          font-size: 1.25vw;
+          font-family: PingFang SC;
+          font-weight: 800;
+          color: #C1C1C1;
+          line-height: 5.555556vh;          
+        }
+        .btn {
+          margin-top: 3.851852vh;
+        }
+      }
+      .code-img {
+        width: 31.041667vw;
+        height: 32.87037vh;
+        background: url("~@/images/code.png") no-repeat center center;
+        background-size: 31.041667vw 32.87037vh;
+      }
+
     }
   }
   .item4 {

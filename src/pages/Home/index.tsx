@@ -1,6 +1,7 @@
 /* eslint-disable react/display-name */
 import React from "react";
 import { Button, Select, Input } from "antd";
+import { ArrowRightOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next";
 import "./index.scss";
 
@@ -166,6 +167,26 @@ export default () => {
       </div>
       <div className="item3">
         <div className="title">Developer Oriented</div>
+        <div className="scroll-content">
+          <div>
+            <div className="left-bar" />
+          </div>
+          <div className="desc">
+            <div className="title">Designed for Developers</div>
+            <div className="sub-title">You can put a paragraph of text here</div>
+            <div className="btn">
+              <Button type="primary" shape="round" icon={<ArrowRightOutlined />} size="large">
+                Read the docs
+              </Button>
+            </div>
+          </div>
+          <div>
+            <div className="code-img" />
+          </div>
+          <div>
+            <div className="right-bar"></div>
+          </div>
+        </div>
       </div>
       <div className="item4">
         <div className="partner">

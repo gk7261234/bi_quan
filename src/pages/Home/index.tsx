@@ -49,6 +49,9 @@ export default () => {
         </div>
         <div className="support-currency">
           <div className="title">Support Currency</div>
+          <div className="right-line line-order1"></div>
+          <div className="right-line line-order2"></div>
+          <div className="right-line line-order3"></div>
           <div className="icon-group">
             <div className="icon-item">
               <div className="icon1" />
@@ -67,6 +70,7 @@ export default () => {
               <div className="text">TUSD</div>
             </div>
           </div>
+          <div className="bottom-line"></div>
           <div className="icon-group">
             <div className="icon-item">
               <div className="icon5" />

@@ -10,13 +10,6 @@ const routes: routeType[] = [
     path: "/",
     component: Home,
   },
-  {
-    title: "路由示例",
-    exact: true,
-    key: "example",
-    path: "/example",
-    component: Example,
-  },
 ];
 
 export default routes;

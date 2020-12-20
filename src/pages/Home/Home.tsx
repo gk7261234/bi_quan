@@ -3,11 +3,11 @@ import React from "react";
 import { Button, Select, Input } from "antd";
 import { ArrowRightOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next";
-import "./index.scss";
+import "./Home.scss";
 
 const { Option } = Select;
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export default () => {
+const Home: React.FC<any> = () => {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng: string) => {
@@ -263,3 +263,4 @@ export default () => {
     </div>
   );
 };
+export default Home;

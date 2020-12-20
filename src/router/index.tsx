@@ -1,5 +1,5 @@
 import { routeType } from "./types";
-import home from "@/pages/Home/index";
+import Home from "@/pages/Home/Home";
 import Example from "@/pages/Example/Example";
 
 const routes: routeType[] = [
@@ -8,7 +8,7 @@ const routes: routeType[] = [
     exact: true,
     key: "home",
     path: "/",
-    component: home,
+    component: Home,
   },
   {
     title: "路由示例",

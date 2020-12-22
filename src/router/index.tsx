@@ -9,7 +9,7 @@ const routes: routeType[] = [
     key: "home",
     path: "/",
     component: Home,
-  }
+  },
 ];
 
 export default routes;

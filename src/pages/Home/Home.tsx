@@ -1,6 +1,6 @@
 /* eslint-disable react/display-name */
 import React from "react";
-import { Button, Select, Input } from "antd";
+import { Button, Select, Input, BackTop } from "antd";
 import { ArrowRightOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next";
 import "./Home.scss";
@@ -13,6 +13,7 @@ const Home: React.FC<any> = () => {
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
   };
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   return (
     <div className="full-page">
       <div className="item1">
@@ -259,6 +260,7 @@ const Home: React.FC<any> = () => {
           </div>
         </div>
         <div className="trademark">© 2020—2021 SynDollar Development Foundation</div>
+        <BackTop />
       </div>
     </div>
   );

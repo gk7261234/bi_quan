@@ -62,9 +62,12 @@
       margin-left: 13.697917vw;
       margin-right: 16.614583vw;
       text-align: center;
+      background: url("~@/images/bg_2.png") no-repeat center;
+      background-size: contain;
+      height:107.5269vh;
       .title {
         position: relative;
-        top: 50%;
+        // top: 50%;
         left: 50%;
         transform: translateX(-50%);
         width: 52.96875vw;
@@ -123,7 +126,7 @@
     }
     .support-currency {
       position: relative;
-      top: 87.888889vh;
+      // top: 7.888889vh;
       text-align: center;
       .title {
         position: relative;
@@ -509,4 +512,16 @@
       line-height: 2.222222vh;
     }
   }
+}
+
+.banner {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  z-index: 100;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #3e1bdb;
 }

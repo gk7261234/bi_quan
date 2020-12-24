@@ -36,8 +36,8 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
-    "lint:es": "eslint --fix -c ./.eslintrc.js src/**/*.{ts,tsx,js}",
-    "lint:ts": "tslint --fix -c ./tslint.json 'src/**/*.{ts,tsx}'"
+    "lint:es": "",
+    "lint:ts": ""
   },
   "pre-commit": [
     "lint:ts",
